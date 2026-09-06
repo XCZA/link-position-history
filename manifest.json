@@ -1,0 +1,9 @@
+{
+	"id": "link-position-history",
+	"name": "Link Position History",
+	"version": "0.1.0",
+	"minAppVersion": "1.13.7",
+	"description": "Return to the exact note and scroll position where you followed an internal link, with enhanced back and forward navigation.",
+	"author": "XCZA",
+	"isDesktopOnly": false
+}
