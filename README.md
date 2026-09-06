@@ -32,12 +32,6 @@ A typical flow becomes:
 4. Use Back.
 5. Return to the source note near the link you originally followed.
 
-## Installation
-
-### Community Plugins
-
-The repository is structured for submission to the Obsidian Community directory, but it is not available there until the initial release has been published and reviewed.
-
 ### Manual installation
 
 1. Download `main.js` and `manifest.json` from a GitHub release.
@@ -113,37 +107,6 @@ Link Position History:
 - Custom history is not persisted across Obsidian restarts.
 - Toolbar integration depends partly on Obsidian's internal markup and history methods and may need adjustment after major UI changes.
 
-## Development
-
-Requirements:
-
-- Node.js 18 or newer.
-- npm.
-- A separate Obsidian development vault. Do not develop plugins against a vault containing important data.
-
-Install dependencies:
-
-```bash
-npm install
-```
-
-Start a development build:
-
-```bash
-npm run dev
-```
-
-Create a production build:
-
-```bash
-npm run build
-```
-
-The build outputs `main.js` in the repository root. `main.js` is intentionally ignored by Git because Obsidian recommends publishing compiled output as a release asset rather than committing it to the source repository.
-
-## Releasing
-
-See [`PUBLISHING.md`](./PUBLISHING.md) for the initial publication checklist and subsequent release process.
 
 ## Contributing
 
